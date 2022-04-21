@@ -4,11 +4,11 @@
 
 ### Fantom 
 
-> Liquid Driver 
-> Creditum
-> Yearn + Abracadabra 
+* Liquid Driver 
+* Creditum
+* Yearn + Abracadabra 
 
 ### Terra
 
-> Anchor Earn
-> Anchor Loan
+* Anchor Earn
+* Anchor Loan
