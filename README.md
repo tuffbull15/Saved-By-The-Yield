@@ -12,3 +12,8 @@
 
 * Anchor Earn
 * Anchor Loan
+
+## Binance Smart Chain
+
+* CAKE-BNB Pool
+* Cake Syrup Pool
