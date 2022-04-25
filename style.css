@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Permanent Marker', 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Permanent Marker', 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-family: 'Permanent Marker', 'Roboto', sans-serif;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+h5 {
+    font-size: 0.75rem;
+}
