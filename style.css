@@ -9,6 +9,8 @@ body {
     color: #fff;
     line-height: 1.5;
     background-color: #111;
+    width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -39,4 +41,39 @@ h5 {
     font-size: 0.75rem;
     font-family: 'Permanent Marker', 'Roboto', sans-serif;
     color: #EC008F;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Navigation Styles */ 
+
+nav {
+    position: fixed;
+    height: 5rem;
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 4%;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    list-style: none;
+    padding: 0 5%;
+}
+
+/* Intro Section */ 
+
+.intro-container {
+    padding-top: 2%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
