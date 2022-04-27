@@ -67,6 +67,12 @@ nav {
     width: 40%;
     list-style: none;
     padding: 0 5%;
+    font-family: 'Permanent Marker', 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
+
+.list-link {
+    padding: 0 5px;
 }
 
 /* Intro Section */ 
