@@ -82,3 +82,16 @@ a:first-child {
     max-width: 100%;
     height: auto;
 }
+
+.intro-text {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.intro-button {
+    padding: 10px 20px;
+    background-color: #EC008F;
+    margin: 2% 0;
+    font-size: 1rem;
+    border: none;
+}
