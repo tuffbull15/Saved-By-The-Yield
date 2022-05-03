@@ -88,7 +88,7 @@ a:first-child {
     margin: 3rem 0;
 }
 
-.intro-button {
+.yield-button {
     padding: 10px 20px;
     background-color: #EC008F;
     margin: 2% 0;
@@ -96,6 +96,7 @@ a:first-child {
     border: none;
     border-radius: 5px;
     font-family: 'Permanent Marker', 'Roboto', sans-serif;
+    color: #fff;
 }
 
 /* Fantom Yields Section */
