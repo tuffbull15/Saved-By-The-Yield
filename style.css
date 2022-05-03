@@ -97,3 +97,14 @@ a:first-child {
     border-radius: 5px;
     font-family: 'Permanent Marker', 'Roboto', sans-serif;
 }
+
+/* Fantom Yields Section */
+
+.yield-img-container {
+    border-bottom: 1px solid #111;
+    background-image: url("/Users/Sean Gray/Documents/projects/Saved By The Yield/resources/SBTY - Liquid Driver.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 8rem 5rem;
+
+}
