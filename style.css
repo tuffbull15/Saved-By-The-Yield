@@ -100,11 +100,26 @@ a:first-child {
 
 /* Fantom Yields Section */
 
-.yield-img-container {
-    border-bottom: 1px solid #111;
-    background-image: url("/Users/Sean Gray/Documents/projects/Saved By The Yield/resources/SBTY - Liquid Driver.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    padding: 8rem 5rem;
+.chains-header {
+    padding: 3rem 3rem;
+}
 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-item {
+    padding: 2rem 3rem;
+    width: 30%;
+    max-width: 100%;
+}
+
+.flex-item img {
+    width: 500px;
+    max-width: 100%;
+}
+
+.flex-item h3 {
+    line-height: 1.2;
 }
