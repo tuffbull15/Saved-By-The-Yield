@@ -14,15 +14,15 @@ function toggleText(){
 function toggleYield(){
     let randYield = Math.floor(Math.random() * randYieldArray.length);
     if (randYield === 0){
-        randYieldArray[randYield].style.display = 'block';
+        randYieldArray[randYield].style.display = 'flex';
         tombFinance.style.display = 'none';
         stader.style.display = 'none';
     }else if(randYield === 1){
-        randYieldArray[randYield].style.display = 'block';
+        randYieldArray[randYield].style.display = 'flex';
         anchorEearn.style.display = 'none';
         stader.style.display = 'none';
     }else{
-        randYieldArray[randYield].style.display = 'block';
+        randYieldArray[randYield].style.display = 'flex';
         anchorEearn.style.display = 'none';
         tombFinance.style.display = 'none';
     }
