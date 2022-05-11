@@ -92,11 +92,25 @@ a:first-child {
     background-color: #EC008F;
     margin: 2% 0;
     font-size: 1.25rem;
-    border: none;
-    border-radius: 5px;
+    text-align: center;
     font-family: 'Permanent Marker', 'Roboto', sans-serif;
+    cursor: pointer;
+    outline: none;
     color: #fff;
-}
+    border: none;
+    box-shadow: 5px 9px #fff;
+  }
+
+  .yield-button:hover {
+      background-color: #ec008edc;
+      transition: 0.1s;
+  }
+  
+  .yield-button:active {
+    background-color: #EC008F;
+    box-shadow: 5px 5px #fff;
+    transform: translateY(4px);
+  }
 
 /* Section Stylings */
 
