@@ -32,3 +32,28 @@ function yieldRandomizer(){
     toggleText();
     toggleYield();
 }
+
+// Checkbox Script
+
+const checkboxOne = document.getElementById('box-one');
+const checkboxTwo = document.getElementById('box-two');
+const checkboxThree = document.getElementById('box-three');
+
+var boxTwoOpacity = 0.2;
+var boxThreeOpacity = 0.2;
+
+function boxTwoReveal(){
+    if (boxTwoOpacity<1) {
+        boxTwoOpacity += .1;
+        setTimeout(function(){boxTwoReveal()},100);
+     }
+     checkboxTwo.style.opacity = boxTwoOpacity;
+}
+
+function boxThreeReveal(){
+    if (boxThreeOpacity<1) {
+        boxThreeOpacity += .1;
+        setTimeout(function(){boxThreeReveal()},100);
+     }
+     checkboxThree.style.opacity = boxThreeOpacity;
+}
