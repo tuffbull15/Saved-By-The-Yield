@@ -18,7 +18,7 @@
         <nav class="nav-menu">
         <a class="nav-item" href="wwww.savedbytheyield.com"><img src="" alt="Saved by the Yield logo"></a>
         <a class="nav-item" href="#fantom">Fantom</a>
-        <a class="nav-item" href="#terra">Terra</a>
+        <a class="nav-item" href="#eth">Ethereum</a>
         <a class="nav-item" href="#yield-randomizer">Yield Randomizer</a>
         <a class="nav-item" href="#tools">Tools</a>
         <a class="nav-item last-item" href="#contact">Contact</a>
@@ -34,6 +34,67 @@
         </div>
     </div>
 
+    <!-- Ethereum Section -->
+
+    <div id="eth">
+        <div class="chains-header">
+            <h2>Ethereum Yields</h2>
+            <p>Below is a small taste of yield farming strategies you can use on the Fantom blockchain.</p>
+        </div>
+    </div>
+
+        <!-- Rocket Pool Eth -->
+
+        <div class="flex-container">
+            <div class="flex-item farm-text">
+                <h3>Rocket Pool Eth</h3>
+                <p>Lorem ipsum intro text.</p>
+            </div>
+            <div class="flex-item farm-img">
+                <img src="./resources/SBTY - Liquid Driver.png" alt="">
+            </div>
+            <div class="flex-item farm-steps">
+                <label class="container" id="box-one-rocket" onclick="boxTwoRevealRocket()">Step One
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="box-two-rocket" style="opacity:0.2" onclick="boxThreeRevealRocket()">Step Two
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="box-three-rocket" style="opacity:0.2">Step Three
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+
+       <!-- Lido -->
+
+        <div class="flex-container">
+            <div class="flex-item farm-text">
+                <h3>Lido Staked Eth</h3>
+                <p>Lorem ipsum intro text.</p>
+            </div>
+            <div class="flex-item farm-img">
+                <img src="./resources/SBTY - Liquid Driver.png" alt="">
+            </div>
+            <div class="flex-item farm-steps">
+                <label class="container" id="box-one-lido" onclick="boxTwoRevealLido()">Step One
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="box-two-lido" style="opacity:0.2" onclick="boxThreeRevealLido()">Step Two
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="box-three-lido" style="opacity:0.2">Step Three
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </div>
+
     <!-- Fantom Section -->
 
     <div id="fantom">
@@ -42,32 +103,6 @@
             <p>Below is a small taste of yield farming strategies you can use on the Fantom blockchain.</p>
         </div>
     </div>
-
-        <!-- Tomb Finance -->
-
-        <div class="flex-container">
-            <div class="flex-item farm-text">
-                <h3>Tomb Finance</h3>
-                <p>Lorem ipsum intro text.</p>
-            </div>
-            <div class="flex-item farm-img">
-                <img src="./resources/SBTY - Liquid Driver.png" alt="">
-            </div>
-            <div class="flex-item farm-steps">
-                <label class="container" id="box-one" onclick="boxTwoReveal()">Step One
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="container" id="box-two" style="opacity:0.2" onclick="boxThreeReveal()">Step Two
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="container" id="box-three" style="opacity:0.2">Step Three
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-            </div>
-        </div>
 
        <!-- sFTMx -->
 
@@ -80,50 +115,41 @@
                 <img src="./resources/SBTY - Liquid Driver.png" alt="">
             </div>
             <div class="flex-item farm-steps">
-                <label class="container">Step One
-                    <input type="checkbox" disabled>
-                    <span class="checkmark"></span>
-                </label>
-                <label class="container">Step Two
+                <label class="container" id="box-one-stader" onclick="boxTwoRevealStader()">Step One
                     <input type="checkbox">
                     <span class="checkmark"></span>
                 </label>
-                <label class="container">Step Three
+                <label class="container" id="box-two-stader" style="opacity:0.2" onclick="boxThreeRevealStader()">Step Two
+                    <input type="checkbox">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container" id="box-three-stader" style="opacity:0.2">Step Three
                     <input type="checkbox">
                     <span class="checkmark"></span>
                 </label>
             </div>
         </div>
 
-    <!-- Terra Section -->
-
-    <div id="terra">
-        <div class="chains-header">
-            <h2>Terra Yields</h2>
-            <p>Below is a small taste of yield farming strategies you can use on the Terra blockchain.</p>
-        </div>
-    </div>
-
-        <!-- Anchor Earn -->
+        <!-- Tomb Finance -->
 
         <div class="flex-container">
             <div class="flex-item farm-text">
-                <h3>Anchor Earn</h3>
+                <h3>Tomb Finance</h3>
                 <p>Lorem ipsum intro text.</p>
             </div>
             <div class="flex-item farm-img">
                 <img src="./resources/SBTY - Liquid Driver.png" alt="">
             </div>
             <div class="flex-item farm-steps">
-                <label class="container">Step One
+                <label class="container" id="box-one-tomb" onclick="boxTwoRevealTomb()">Step One
                     <input type="checkbox">
                     <span class="checkmark"></span>
                 </label>
-                <label class="container">Step Two
+                <label class="container" id="box-two-tomb" style="opacity:0.2" onclick="boxThreeRevealTomb()">Step Two
                     <input type="checkbox">
                     <span class="checkmark"></span>
                 </label>
-                <label class="container">Step Three
+                <label class="container" id="box-three-tomb" style="opacity:0.2">Step Three
                     <input type="checkbox">
                     <span class="checkmark"></span>
                 </label>
@@ -140,53 +166,59 @@
         </div>
     </div>
 
-            <div class="flex-container" id="anchor-earn" style="display:none;">
+            <!-- Rocket YG -->
+
+            <div class="flex-container" id="rocket-eth" style="display:none;">
                 <div class="flex-item farm-text">
-                    <h3>Anchor Earn</h3>
+                    <h3>Rocket Pool Eth</h3>
                     <p>Lorem ipsum intro text.</p>
                 </div>
                 <div class="flex-item farm-img">
                     <img src="./resources/SBTY - Liquid Driver.png" alt="">
                 </div>
                 <div class="flex-item farm-steps">
-                    <label class="container" id="box-one" onclick="checkboxReveal()">Step One
+                    <label class="container" id="box-one-rocket-yg" onclick="boxTwoRocketYg()">Step One
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="container" id="box-two" onclick="checkboxReveal()">Step Two
+                    <label class="container" id="box-two-rocket-yg" style="opacity:0.2" onclick="boxThreeRocketYg()">Step Two
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="container box-three">Step Three
+                    <label class="container" id="box-three-rocket-yg" style="opacity:0.2">Step Three
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
                 </div>
             </div>
 
-            <div class="flex-container" id="tomb-finance" style="display: none;">
+            <!-- Lido YG -->
+
+            <div class="flex-container" id="lido-eth" style="display:none;">
                 <div class="flex-item farm-text">
-                    <h3>Tomb Finance</h3>
+                    <h3>Lido Staked Eth</h3>
                     <p>Lorem ipsum intro text.</p>
                 </div>
                 <div class="flex-item farm-img">
                     <img src="./resources/SBTY - Liquid Driver.png" alt="">
                 </div>
                 <div class="flex-item farm-steps">
-                    <label class="container">Step One
+                    <label class="container" id="box-one-lido-yg" onclick="boxTwoLidoYg()">Step One
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="container">Step Two
+                    <label class="container" id="box-two-lido-yg" style="opacity:0.2" onclick="boxThreeLidoYg()">Step Two
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="container">Step Three
+                    <label class="container" id="box-three-lido-yg" style="opacity:0.2">Step Three
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
                 </div>
             </div>
+
+            <!-- Stader YG -->
             
             <div class="flex-container" id="stader" style="display: none;">
                 <div class="flex-item farm-text">
@@ -197,20 +229,47 @@
                     <img src="./resources/SBTY - Liquid Driver.png" alt="">
                 </div>
                 <div class="flex-item farm-steps">
-                    <label class="container">Step One
+                    <label class="container" id="box-one-stader-yg" onclick="boxTwoStaderYg()">Step One
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="container">Step Two
+                    <label class="container" id="box-two-stader-yg" style="opacity:0.2" onclick="boxThreeStaderYg()">Step Two
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
-                    <label class="container">Step Three
+                    <label class="container" id="box-three-stader-yg" style="opacity:0.2">Step Three
                         <input type="checkbox">
                         <span class="checkmark"></span>
                     </label>
                 </div>
             </div>
+
+            <!--Tomb Finance YG-->
+
+            <div class="flex-container" id="tomb-finance" style="display:none;">
+                <div class="flex-item farm-text">
+                    <h3>Tomb Finance</h3>
+                    <p>Lorem ipsum intro text.</p>
+                </div>
+                <div class="flex-item farm-img">
+                    <img src="./resources/SBTY - Liquid Driver.png" alt="">
+                </div>
+                <div class="flex-item farm-steps">
+                    <label class="container" id="box-one-tomb-yg" onclick="boxTwoTombYg()">Step One
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container" id="box-two-tomb-yg" style="opacity:0.2" onclick="boxThreeTombYg()">Step Two
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container" id="box-three-tomb-yg" style="opacity:0.2">Step Three
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+            </div>
+
 
     <!-- Tools Section -->
 
