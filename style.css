@@ -138,14 +138,18 @@ a:first-child {
     line-height: 1.2;
 }
 
+.steps {
+    font-family: 'Permanent Marker', 'Roboto', sans-serif;
+    color: #FFF300;
+}
+
 /* Checkbox Styling */
 
-/* Customize the label (the container) */
-.container {
-    display: block;
+label {
     position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
+    margin-left: 40px;
+    display: block;
+    vertical-align: middle;
     cursor: pointer;
     font-size: 1rem;
     -webkit-user-select: none;
@@ -153,60 +157,50 @@ a:first-child {
     -ms-user-select: none;
     user-select: none;
   }
-  
-  /* Hide the browser's default checkbox */
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-  
-  /* Create a custom checkbox */
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
-    background-color: #FFF300;
-  }
-  
-  /* When the checkbox is checked, add a blue background */
-  .container input:checked ~ .checkmark {
+
+
+input[type="checkbox"] {
+    -webkit-appearance:none;
+    height:1.5rem;
+    width:1.5rem;
+    cursor:pointer;
+    position:relative;
+    -webkit-transition: .10s;
+    border-radius:4em;
+    background-color: #fff;
+    vertical-align: middle;
+    float: left;
+}
+
+input[type="checkbox"]:checked {
     background-color: #EC008F;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
-    content: "";
-    position: absolute;
+}
+    
+input[type="checkbox"]:before, input[type="checkbox"]:checked:before {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    line-height:1.5rem;
+    text-align:center;
+    color:white;
+}
+
+input[type="checkbox"]:checked:before {
+    content: '✔';
+}
+
+
+/* Success Message */
+
+.success-message {
+    color: #FFF300;
+    text-align: center;
     display: none;
-  }
-  
-  /* Show the checkmark when checked */
-  .container input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  /* Style the checkmark/indicator */
-  .container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-  }
+    font-family: 'Permanent Marker', 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
 
 /* Footer Section */
 

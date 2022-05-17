@@ -42,6 +42,59 @@ function yieldRandomizer(){
     toggleYield();
 }
 
+// Success Message Display
+
+const lidoSuccess = document.getElementById('lido-success')
+
+function lidoSuccessMessage(){
+    lidoSuccess.style.display = 'flex';
+}
+
+// Checkbox Script Lido
+
+const boxOneLido = document.getElementById('box-one-lido');
+const boxTwoLido = document.getElementById('box-two-lido');
+const boxThreeLido = document.getElementById('box-three-lido');
+const stepTwoLido = document.getElementById('step-two-lido');
+const stepThreeLido = document.getElementById('step-three-lido');
+
+let boxTwoOpacityLido = 0.2;
+let boxThreeOpacityLido = 0.2;
+
+function boxTwoRevealLido(){
+    if (boxTwoOpacityLido<1){
+        boxTwoOpacityLido += .1;
+        setTimeout(function(){boxTwoRevealLido()},100);
+     }
+     boxTwoLido.style.opacity = boxTwoOpacityLido;
+}
+
+function boxTwoTextLido(){
+    stepTwoLido.innerHTML += ": Deposit your ETH and stETH into the <a href=\"https://curve.fi/steth\">Curve stETH pool</a>.";
+}
+
+function boxThreeRevealLido(){
+    if (boxThreeOpacityLido<1) {
+        boxThreeOpacityLido += .1;
+        setTimeout(function(){boxThreeRevealLido()},100);
+     }
+     boxThreeLido.style.opacity = boxThreeOpacityLido;
+}
+
+function boxThreeTextLido(){
+    stepThreeLido.innerHTML += ": Deposit your crvSTETH LP tokens into <a href=\https://yearn.finance/#/vault/0xdCD90C7f6324cfa40d7169ef80b12031770B4325\">Yearn's stETH pool</a> for a boosted APY on your stETH-ETH position. ";
+}
+
+function checkboxTwolLido(){
+    boxTwoRevealLido();
+    boxTwoTextLido();
+}
+
+function checkboxThreelLido(){
+    boxThreeRevealLido();
+    boxThreeTextLido();
+}
+
 // Checkbox Script Rocket
 
 const checkboxOneRocket = document.getElementById('box-one-rocket');
@@ -65,31 +118,6 @@ function boxThreeRevealRocket(){
         setTimeout(function(){boxThreeRevealRocket()},100);
      }
      checkboxThreeRocket.style.opacity = boxThreeOpacityRocket;
-}
-
-// Checkbox Script Lido
-
-const checkboxOneLido = document.getElementById('box-one-lido');
-const checkboxTwoLido = document.getElementById('box-two-lido');
-const checkboxThreeLido = document.getElementById('box-three-lido');
-
-let boxTwoOpacityLido = 0.2;
-let boxThreeOpacityLido = 0.2;
-
-function boxTwoRevealLido(){
-    if (boxTwoOpacityLido<1){
-        boxTwoOpacityLido += .1;
-        setTimeout(function(){boxTwoRevealLido()},100);
-     }
-     checkboxTwoLido.style.opacity = boxTwoOpacityLido;
-}
-
-function boxThreeRevealLido(){
-    if (boxThreeOpacityLido<1) {
-        boxThreeOpacityLido += .1;
-        setTimeout(function(){boxThreeRevealLido()},100);
-     }
-     checkboxThreeLido.style.opacity = boxThreeOpacityLido;
 }
 
 // Checkbox Script Stader

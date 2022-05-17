@@ -80,20 +80,25 @@
                 <img src="./resources/SBTY - Liquid Driver.png" alt="">
             </div>
             <div class="flex-item farm-steps">
-                <label class="container" id="box-one-lido" onclick="boxTwoRevealLido()">Step One
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="container" id="box-two-lido" style="opacity:0.2" onclick="boxThreeRevealLido()">Step Two
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
-                <label class="container" id="box-three-lido" style="opacity:0.2">Step Three
-                    <input type="checkbox">
-                    <span class="checkmark"></span>
-                </label>
+                <div id="box-one-lido">
+                    <input type="checkbox" onclick="checkboxTwolLido()">
+                    <label id="step-one-lido"><span class="steps">Step 1</span>: Purchase an equal amount of ETH and stETH from your favorite dex like <a href="https://app.uniswap.org/#/swap?chain=mainnet">Uniswap</a> or <a href="https://curve.fi/factory/117">Curve</a></label><br>
+                </div>
+                <div id="box-two-lido" style="opacity:0.2">
+                    <input type="checkbox" onclick="checkboxThreelLido()">
+                    <label id="step-two-lido"><span class="steps">Step 2</span></label><br>
+                </div>
+                <div id="box-three-lido" style="opacity:0.2">
+                    <input type="checkbox" onclick="lidoSuccessMessage()">
+                    <label id="step-three-lido"><span class="steps">Step 3</span></label><br>
+                </div>
+
+                <div id="lido-success" class="success-message"><p>Radical!</p></div>
+
             </div>
         </div>
+
+    
 
     <!-- Fantom Section -->
 
