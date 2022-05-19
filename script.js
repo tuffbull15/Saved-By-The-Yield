@@ -425,26 +425,31 @@ function toggleText(){
 
 function toggleYield(){
     let randYield = Math.floor(Math.random() * randYieldArray.length);
-    if (randYield === 0){
-        randYieldArray[randYield].style.display = 'flex';
-        lidoEth.style.display = 'none';
-        argEth.style.display = 'none';
-        ftxEth.style.display = 'none';
-    }else if(randYield === 1){
-        randYieldArray[randYield].style.display = 'flex';
-        rocketEth.style.display = 'none';
-        argEth.style.display = 'none';
-        ftxEth.style.display = 'none';
-    }else if(randYield === 2){
-        randYieldArray[randYield].style.display = 'flex';
-        rocketEth.style.display = 'none';
-        lidoEth.style.display = 'none';
-        ftxEth.style.display = 'none';
-    }else{
-        randYieldArray[randYield].style.display = 'flex';
-        rocketEth.style.display = 'none';
-        lidoEth.style.display = 'none';
-        argEth.style.display = 'none';
+    switch (randYield){
+        case 0:
+            randYieldArray[randYield].style.display = 'flex';
+            lidoEth.style.display = 'none';
+            argEth.style.display = 'none';
+            ftxEth.style.display = 'none';
+            break;
+        case 1:
+            randYieldArray[randYield].style.display = 'flex';
+            rocketEth.style.display = 'none';
+            argEth.style.display = 'none';
+            ftxEth.style.display = 'none';
+            break;
+        case 2: 
+            randYieldArray[randYield].style.display = 'flex';
+            rocketEth.style.display = 'none';
+            lidoEth.style.display = 'none';
+            ftxEth.style.display = 'none';
+            break;
+        default:
+            randYieldArray[randYield].style.display = 'flex';
+            rocketEth.style.display = 'none';
+            lidoEth.style.display = 'none';
+            argEth.style.display = 'none';
+            break;
     }
 }
 
