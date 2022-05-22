@@ -1,19 +1,16 @@
 # Saved By The Yield
 
-## Yield Farming Strategies on Fantom and Terra
+## Yield Farming Strategies on Ethereum
 
-### Fantom 
+### Ethereum 
 
-* Liquid Driver 
-* Creditum
-* Yearn + Abracadabra 
+* Curve-Yearn stETH Strategy
+* Rocket Pool Strategy
+* FTX Earn
+* Argent Wallet L2
 
-### Terra
+### Tools
 
-* Anchor Earn
-* Anchor Loan
-
-## Binance Smart Chain
-
-* CAKE-BNB Pool
-* Cake Syrup Pool
+* Impermanent Loss Calculator
+* Protocol Bridges
+* Defi Trackers
