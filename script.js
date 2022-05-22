@@ -427,25 +427,25 @@ function toggleYield(){
     let randYield = Math.floor(Math.random() * randYieldArray.length);
     switch (randYield){
         case 0:
-            randYieldArray[randYield].style.display = 'flex';
+            randYieldArray[randYield].style.display = 'inline-block';
             lidoEth.style.display = 'none';
             argEth.style.display = 'none';
             ftxEth.style.display = 'none';
             break;
         case 1:
-            randYieldArray[randYield].style.display = 'flex';
+            randYieldArray[randYield].style.display = 'inline-block';
             rocketEth.style.display = 'none';
             argEth.style.display = 'none';
             ftxEth.style.display = 'none';
             break;
         case 2: 
-            randYieldArray[randYield].style.display = 'flex';
+            randYieldArray[randYield].style.display = 'inline-block';
             rocketEth.style.display = 'none';
             lidoEth.style.display = 'none';
             ftxEth.style.display = 'none';
             break;
         default:
-            randYieldArray[randYield].style.display = 'flex';
+            randYieldArray[randYield].style.display = 'inline-block';
             rocketEth.style.display = 'none';
             lidoEth.style.display = 'none';
             argEth.style.display = 'none';
