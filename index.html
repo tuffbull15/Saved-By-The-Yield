@@ -17,7 +17,6 @@
     <header>
         <nav class="nav-menu">
         <a class="nav-item" href="wwww.savedbytheyield.com"><img src="" alt="Saved by the Yield logo"></a>
-        <a class="nav-item" href="#fantom">Fantom</a>
         <a class="nav-item" href="#eth">Ethereum</a>
         <a class="nav-item" href="#yield-randomizer">Yield Randomizer</a>
         <a class="nav-item" href="#tools">Tools</a>
@@ -51,7 +50,7 @@
                 <div class="card-marker">
                     <div>
                         <div class="card-title">
-                            The 411
+                            <h4>The 4-1-1</h4>
                         </div>
                     </div>
                 </div>   
@@ -60,24 +59,26 @@
                 <div class="card-marker">
                     <div>
                         <div class="card-title">
-                            The Strategy
+                            <h4>The Strategy</h4>
                         </div>
                     </div>
                 </div>
-                <div id="box-one-lido">
-                    <input type="checkbox" onclick="checkboxTwoLido(); this.onclick=null;">
-                    <label id="step-one-lido"><span class="steps">Step 1</span>: Get your hands on some ETH or stETH — either from a dex like Uniswap, a centralized exchange like Coinbase, or a fiat onramp like Transak.</label><br>
+                <div class="check-box-container">
+                    <div id="box-one-lido">
+                        <input type="checkbox" onclick="checkboxTwoLido(); this.onclick=null;">
+                        <label id="step-one-lido"><span class="steps">Step 1</span>: Get your hands on some ETH or stETH — either from a dex like Uniswap, a centralized exchange like Coinbase, or a fiat onramp like Transak.</label><br>
+                    </div>
+                    <div id="box-two-lido" style="opacity:0.2">
+                        <input type="checkbox" onclick="checkboxThreeLido(); this.onclick=null;">
+                        <label id="step-two-lido"><span class="steps">Step 2</span></label><br>
+                    </div>
+                    <div id="box-three-lido" style="opacity:0.2">
+                        <input type="checkbox" onclick="lidoSuccessMessage()">
+                        <label id="step-three-lido"><span class="steps">Step 3</span></label><br>
+                    </div>
+                    <div id="lido-success" class="success-message"><p>Every man dies, not every man really lives... to see sweet yield on their Eth.</p></div>
                 </div>
-                <div id="box-two-lido" style="opacity:0.2">
-                    <input type="checkbox" onclick="checkboxThreeLido(); this.onclick=null;">
-                    <label id="step-two-lido"><span class="steps">Step 2</span></label><br>
-                </div>
-                <div id="box-three-lido" style="opacity:0.2">
-                    <input type="checkbox" onclick="lidoSuccessMessage()">
-                    <label id="step-three-lido"><span class="steps">Step 3</span></label><br>
-                </div>
-                <div id="lido-success" class="success-message"><p>Every man dies, not every man really lives... to see sweet yield on their Eth.</p></div>
-            </div>
+            </div>     
         </div>
 
     <!-- Rocket Eth Strategy -->
@@ -88,28 +89,34 @@
                 <div class="card-marker">
                     <div>
                         <div class="card-title">
-                        The 411
+                        <h4>The 4-1-1</h4>
                         </div>
                     </div>
                 </div>   
             </div>
-            <div class="flex-item farm-img">
-                <img src="./resources/SBTY - Liquid Driver.png" alt="">
-            </div>
-            <div class="flex-item farm-steps">
-                <div id="box-one-rock">
-                    <input type="checkbox" onclick="checkboxTwoRock(); this.onclick=null;">
-                    <label id="step-one-rock"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+            <div class="flex-item farm-steps card-border">
+                <div class="card-marker">
+                    <div>
+                        <div class="card-title">
+                            <h4>The Strategy</h4>
+                        </div>
+                    </div>
                 </div>
-                <div id="box-two-rock" style="opacity:0.2">
-                    <input type="checkbox" onclick="checkboxThreelRock(); this.onclick=null;">
-                    <label id="step-two-rock"><span class="steps">Step 2</span></label><br>
+                <div class="check-box-container">
+                    <div id="box-one-rock">
+                        <input type="checkbox" onclick="checkboxTwoRock(); this.onclick=null;">
+                        <label id="step-one-rock"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+                    </div>
+                    <div id="box-two-rock" style="opacity:0.2">
+                        <input type="checkbox" onclick="checkboxThreelRock(); this.onclick=null;">
+                        <label id="step-two-rock"><span class="steps">Step 2</span></label><br>
+                    </div>
+                    <div id="box-three-rock" style="opacity:0.2">
+                        <input type="checkbox" onclick="rockSuccessMessage(); this.onclick=null;">
+                        <label id="step-three-rock"><span class="steps">Step 3</span></label><br>
+                    </div>
+                    <div id="rock-success" class="success-message"><p>All right, all right, all right.</p></div>
                 </div>
-                <div id="box-three-rock" style="opacity:0.2">
-                    <input type="checkbox" onclick="rockSuccessMessage(); this.onclick=null;">
-                    <label id="step-three-rock"><span class="steps">Step 3</span></label><br>
-                </div>
-                <div id="rock-success" class="success-message"><p>All right, all right, all right.</p></div>
             </div>
         </div>
 
@@ -118,26 +125,38 @@
 
     <h3 class="headers">Argent Wallet</h3>
         <div class="flex-container">
-            <div class="flex-item farm-text">
-                <p>Lorem ipsum intro text.</p>
+            <div class="flex-item farm-text card-border">
+                <div class="card-marker">
+                    <div>
+                        <div class="card-title">
+                        <h4>The 4-1-1</h4>
+                        </div>
+                    </div>
+                </div>   
             </div>
-            <div class="flex-item farm-img">
-                <img src="./resources/SBTY - Liquid Driver.png" alt="">
-            </div>
-            <div class="flex-item farm-steps">
-                <div id="box-one-arg">
-                    <input type="checkbox" onclick="checkboxTwoArg(); this.onclick=null;">
-                    <label id="step-one-arg"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+            <div class="flex-item farm-steps card-border">
+                <div class="card-marker">
+                    <div>
+                        <div class="card-title">
+                            <h4>The Strategy</h4>
+                        </div>
+                    </div>
                 </div>
-                <div id="box-two-arg" style="opacity:0.2">
-                    <input type="checkbox" onclick="checkboxThreeArg(); this.onclick=null;">
-                    <label id="step-two-arg"><span class="steps">Step 2</span></label><br>
+                <div class="check-box-container">
+                    <div id="box-one-arg">
+                        <input type="checkbox" onclick="checkboxTwoArg(); this.onclick=null;">
+                        <label id="step-one-arg"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+                    </div>
+                    <div id="box-two-arg" style="opacity:0.2">
+                        <input type="checkbox" onclick="checkboxThreeArg(); this.onclick=null;">
+                        <label id="step-two-arg"><span class="steps">Step 2</span></label><br>
+                    </div>
+                    <div id="box-three-arg" style="opacity:0.2">
+                        <input type="checkbox" onclick="argSuccessMessage()">
+                        <label id="step-three-arg"><span class="steps">Step 3</span></label><br>
+                    </div>
+                    <div id="arg-success" class="success-message"><p>Just when I think you couldn’t possibly be any dumber, you go and do something like this… and totally redeem yourself!</p></div>
                 </div>
-                <div id="box-three-arg" style="opacity:0.2">
-                    <input type="checkbox" onclick="argSuccessMessage()">
-                    <label id="step-three-arg"><span class="steps">Step 3</span></label><br>
-                </div>
-                <div id="arg-success" class="success-message"><p>Just when I think you couldn’t possibly be any dumber, you go and do something like this… and totally redeem yourself!</p></div>
             </div>
         </div>
 
@@ -145,26 +164,38 @@
 
     <h3 class="headers">FTX Earn</h3>
         <div class="flex-container">
-            <div class="flex-item farm-text">
-                <p>Lorem ipsum intro text.</p>
+            <div class="flex-item farm-text card-border">
+                <div class="card-marker">
+                    <div>
+                        <div class="card-title">
+                        <h4>The 4-1-1</h4>
+                        </div>
+                    </div>
+                </div>   
             </div>
-            <div class="flex-item farm-img">
-                <img src="./resources/SBTY - Liquid Driver.png" alt="">
-            </div>
-            <div class="flex-item farm-steps">
-                <div id="box-one-ftx">
-                    <input type="checkbox" onclick="checkboxTwoFtx(); this.onclick=null;">
-                    <label id="step-one-ftx"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+            <div class="flex-item farm-steps card-border">
+                <div class="card-marker">
+                    <div>
+                        <div class="card-title">
+                            <h4>The Strategy</h4>
+                        </div>
+                    </div>
                 </div>
-                <div id="box-two-ftx" style="opacity:0.2">
-                    <input type="checkbox" onclick="checkboxThreeFtx(); this.onclick=null;">
-                    <label id="step-two-ftx"><span class="steps">Step 2</span></label><br>
+                <div class="check-box-container">
+                    <div id="box-one-ftx">
+                        <input type="checkbox" onclick="checkboxTwoFtx(); this.onclick=null;">
+                        <label id="step-one-ftx"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+                    </div>
+                    <div id="box-two-ftx" style="opacity:0.2">
+                        <input type="checkbox" onclick="checkboxThreeFtx(); this.onclick=null;">
+                        <label id="step-two-ftx"><span class="steps">Step 2</span></label><br>
+                    </div>
+                    <div id="box-three-ftx" style="opacity:0.2">
+                        <input type="checkbox" onclick="ftxSuccessMessage()">
+                        <label id="step-three-ftx"><span class="steps">Step 3</span></label><br>
+                    </div>
+                    <div id="ftx-success" class="success-message"><p>Show me the money (but more importantly the yield)!</p></div>
                 </div>
-                <div id="box-three-ftx" style="opacity:0.2">
-                    <input type="checkbox" onclick="ftxSuccessMessage()">
-                    <label id="step-three-ftx"><span class="steps">Step 3</span></label><br>
-                </div>
-                <div id="ftx-success" class="success-message"><p>Show me the money (but more importantly the yield)!</p></div>
             </div>
         </div>
 
@@ -180,109 +211,165 @@
 
             <!-- Rocket YG -->
 
-            <div class="flex-container" id="rocket-eth" style="display:none;">
-                <div class="flex-item farm-text">
-                    <h3>Rocket ETH Strategy</h3>
-                    <p>Lorem ipsum intro text.</p>
-                </div>
-                <div class="flex-item farm-img">
-                    <img src="./resources/SBTY - Liquid Driver.png" alt="">
-                </div>
-                <div class="flex-item farm-steps">
-                    <div id="box-one-rock-yg">
-                        <input type="checkbox" onclick="checkboxTwoRockYg(); this.onclick=null;">
-                        <label id="step-one-rock-yg"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+            <div id="rocket-eth" style="display:none">
+                <h3 class="headers">Rocket ETH Strategy</h3>
+                <div class="flex-container">
+                    <div class="flex-item farm-text card-border">
+                        <div class="card-marker">
+                            <div>
+                                <div class="card-title">
+                                <h4>The 4-1-1</h4>
+                                </div>
+                            </div>
+                        </div>   
                     </div>
-                    <div id="box-two-rock-yg" style="opacity:0.2">
-                        <input type="checkbox" onclick="checkboxThreeRockYg(); this.onclick=null;">
-                        <label id="step-two-rock-yg"><span class="steps">Step 2</span></label><br>
+                    <div class="flex-item farm-steps card-border">
+                        <div class="card-marker">
+                            <div>
+                                <div class="card-title">
+                                    <h4>The Strategy</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="check-box-container">
+                            <div id="box-one-rock-yg">
+                                <input type="checkbox" onclick="checkboxTwoRockYg(); this.onclick=null;">
+                                <label id="step-one-rock-yg"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+                            </div>
+                            <div id="box-two-rock-yg" style="opacity:0.2">
+                                <input type="checkbox" onclick="checkboxThreeRockYg(); this.onclick=null;">
+                                <label id="step-two-rock-yg"><span class="steps">Step 2</span></label><br>
+                            </div>
+                            <div id="box-three-rock-yg" style="opacity:0.2">
+                                <input type="checkbox" onclick="rockSuccessMessageYg()">
+                                <label id="step-three-rock-yg"><span class="steps">Step 3</span></label><br>
+                            </div>
+                            <div id="rock-success-yg" class="success-message"><p>All right, all right, all right.</p></div>
+                        </div>
                     </div>
-                    <div id="box-three-rock-yg" style="opacity:0.2">
-                        <input type="checkbox" onclick="rockSuccessMessageYg()">
-                        <label id="step-three-rock-yg"><span class="steps">Step 3</span></label><br>
-                    </div>
-                    <div id="rock-success-yg" class="success-message"><p>All right, all right, all right.</p></div>
                 </div>
             </div>
 
             <!--Yield Generator - Lido -->
 
-            <div class="flex-container" id="lido-eth" style="display:none;">
-                <div class="flex-item farm-text">
-                    <h3>stETH Yearn Strategy</h3>
-                    <p>Lorem ipsum intro text.</p>
-                </div>
-                <div class="flex-item farm-img">
-                    <img src="./resources/SBTY - Liquid Driver.png" alt="">
-                </div>
-                <div class="flex-item farm-steps">
-                    <div id="box-one-lido-yg">
-                        <input type="checkbox" onclick="checkboxTwoLidoYg(); this.onclick=null;">
-                        <label id="step-one-lido-yg"><span class="steps">Step 1</span>: Get your hands on some ETH or stETH — either from a dex like Uniswap, a centralized exchange like Coinbase, or a fiat onramp like Transak.</label><br>
+            <div id="lido-eth" style="display:none">
+                <h3 class="headers">Lido ETH Strategy</h3>
+                <div class="flex-container">
+                    <div class="flex-item farm-text card-border">
+                        <div class="card-marker">
+                            <div>
+                                <div class="card-title">
+                                <h4>The 4-1-1</h4>
+                                </div>
+                            </div>
+                        </div>   
                     </div>
-                    <div id="box-two-lido-yg" style="opacity:0.2">
-                        <input type="checkbox" onclick="checkboxThreeLidoYg(); this.onclick=null;">
-                        <label id="step-two-lido-yg"><span class="steps">Step 2</span></label><br>
+                    <div class="flex-item farm-steps card-border">
+                        <div class="card-marker">
+                            <div>
+                                <div class="card-title">
+                                    <h4>The Strategy</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="check-box-container">
+                            <div id="box-one-lido-yg">
+                                <input type="checkbox" onclick="checkboxTwoLidoYg(); this.onclick=null;">
+                                <label id="step-one-lido-yg"><span class="steps">Step 1</span>: Get your hands on some ETH or stETH — either from a dex like Uniswap, a centralized exchange like Coinbase, or a fiat onramp like Transak.</label><br>
+                            </div>
+                            <div id="box-two-lido-yg" style="opacity:0.2">
+                                <input type="checkbox" onclick="checkboxThreeLidoYg(); this.onclick=null;">
+                                <label id="step-two-lido-yg"><span class="steps">Step 2</span></label><br>
+                            </div>
+                            <div id="box-three-lido-yg" style="opacity:0.2">
+                                <input type="checkbox" onclick="lidoSuccessMessageYg()">
+                                <label id="step-three-lido-yg"><span class="steps">Step 3</span></label><br>
+                            </div>
+                            <div id="lido-success-yg" class="success-message"><p>Every man dies, not every man really lives... to see sweet yield on their Eth.</p></div>
+                        </div>
                     </div>
-                    <div id="box-three-lido-yg" style="opacity:0.2">
-                        <input type="checkbox" onclick="lidoSuccessMessageYg()">
-                        <label id="step-three-lido-yg"><span class="steps">Step 3</span></label><br>
-                    </div>
-                    <div id="lido-success-yg" class="success-message"><p>Every man dies, not every man really lives... to see sweet yield on their Eth.</p></div>
                 </div>
             </div>
 
             <!-- Yield Generator - Argent -->
             
-            <div class="flex-container" id="arg-eth" style="display:none;">
-                <div class="flex-item farm-text">
-                    <h3>Argent Wallet</h3>
-                    <p>Lorem ipsum intro text.</p>
-                </div>
-                <div class="flex-item farm-img">
-                    <img src="./resources/SBTY - Liquid Driver.png" alt="">
-                </div>
-                <div class="flex-item farm-steps">
-                    <div id="box-one-arg-yg">
-                        <input type="checkbox" onclick="checkboxTwoArgYg(); this.onclick=null;">
-                        <label id="step-one-arg-yg"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+            <div id="arg-eth" style="display:none">
+                <h3 class="headers">Argent Wallet</h3>
+                <div class="flex-container">
+                    <div class="flex-item farm-text card-border">
+                        <div class="card-marker">
+                            <div>
+                                <div class="card-title">
+                                <h4>The 4-1-1</h4>
+                                </div>
+                            </div>
+                        </div>   
                     </div>
-                    <div id="box-two-arg-yg" style="opacity:0.2">
-                        <input type="checkbox" onclick="checkboxThreeArgYg(); this.onclick=null;">
-                        <label id="step-two-arg-yg"><span class="steps">Step 2</span></label><br>
+                    <div class="flex-item farm-steps card-border">
+                        <div class="card-marker">
+                            <div>
+                                <div class="card-title">
+                                    <h4>The Strategy</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="check-box-container">
+                            <div id="box-one-arg-yg">
+                                <input type="checkbox" onclick="checkboxTwoArgYg(); this.onclick=null;">
+                                <label id="step-one-arg-yg"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+                            </div>
+                            <div id="box-two-arg-yg" style="opacity:0.2">
+                                <input type="checkbox" onclick="checkboxThreeArgYg(); this.onclick=null;">
+                                <label id="step-two-arg-yg"><span class="steps">Step 2</span></label><br>
+                            </div>
+                            <div id="box-three-arg-yg" style="opacity:0.2">
+                                <input type="checkbox" onclick="argSuccessMessageYg(); this.onclick=null;">
+                                <label id="step-three-arg-yg"><span class="steps">Step 3</span></label><br>
+                            </div>
+                            <div id="arg-success-yg" class="success-message"><p>Just when I think you couldn’t possibly be any dumber, you go and do something like this… and totally redeem yourself!</p></div>
+                        </div>
                     </div>
-                    <div id="box-three-arg-yg" style="opacity:0.2">
-                        <input type="checkbox" onclick="argSuccessMessageYg(); this.onclick=null;">
-                        <label id="step-three-arg-yg"><span class="steps">Step 3</span></label><br>
-                    </div>
-                    <div id="arg-success-yg" class="success-message"><p>Just when I think you couldn’t possibly be any dumber, you go and do something like this… and totally redeem yourself!</p></div>
                 </div>
             </div>
 
             <!-- Yield Generator - FTX Earn -->
             
-            <div class="flex-container" id="ftx-eth" style="display:none;">
-                <div class="flex-item farm-text">
-                    <h3>FTX Earn</h3>
-                    <p>Lorem ipsum intro text.</p>
-                </div>
-                <div class="flex-item farm-img">
-                    <img src="./resources/SBTY - Liquid Driver.png" alt="">
-                </div>
-                <div class="flex-item farm-steps">
-                    <div id="box-one-ftx-yg">
-                        <input type="checkbox" onclick="checkboxTwoFtxYg(); this.onclick=null;">
-                        <label id="step-one-ftx-yg"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+            <div id="ftx-eth" style="display:none">
+                <h3 class="headers">FTX Earn</h3>
+                <div class="flex-container">
+                    <div class="flex-item farm-text card-border">
+                        <div class="card-marker">
+                            <div>
+                                <div class="card-title">
+                                <h4>The 4-1-1</h4>
+                                </div>
+                            </div>
+                        </div>   
                     </div>
-                    <div id="box-two-ftx-yg" style="opacity:0.2">
-                        <input type="checkbox" onclick="checkboxThreeFtxYg(); this.onclick=null;">
-                        <label id="step-two-ftx-yg"><span class="steps">Step 2</span></label><br>
+                    <div class="flex-item farm-steps card-border">
+                        <div class="card-marker">
+                            <div>
+                                <div class="card-title">
+                                    <h4>The Strategy</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="check-box-container">
+                            <div id="box-one-ftx-yg">
+                                <input type="checkbox" onclick="checkboxTwoFtxYg(); this.onclick=null;">
+                                <label id="step-one-ftx-yg"><span class="steps">Step 1</span>: Buy wETH or stETH from your favorite dex like Curve or Uniswap. You do not need an even 50/50 split of each for this strategy.</label><br>
+                            </div>
+                            <div id="box-two-ftx-yg" style="opacity:0.2">
+                                <input type="checkbox" onclick="checkboxThreeFtxYg(); this.onclick=null;">
+                                <label id="step-two-ftx-yg"><span class="steps">Step 2</span></label><br>
+                            </div>
+                            <div id="box-three-ftx-yg" style="opacity:0.2">
+                                <input type="checkbox" onclick="ftxSuccessMessageYg()">
+                                <label id="step-three-ftx-yg"><span class="steps">Step 3</span></label><br>
+                            </div>
+                            <div id="ftx-success-yg" class="success-message"><p>Just when I think you couldn’t possibly be any dumber, you go and do something like this… and totally redeem yourself!</p></div>
+                        </div>
                     </div>
-                    <div id="box-three-ftx-yg" style="opacity:0.2">
-                        <input type="checkbox" onclick="ftxSuccessMessageYg()">
-                        <label id="step-three-ftx-yg"><span class="steps">Step 3</span></label><br>
-                    </div>
-                    <div id="ftx-success-yg" class="success-message"><p>Just when I think you couldn’t possibly be any dumber, you go and do something like this… and totally redeem yourself!</p></div>
                 </div>
             </div>
 
