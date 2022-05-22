@@ -121,6 +121,14 @@ a:first-child {
     padding: 3rem 3rem;
 }
 
+.yg-headers {
+    margin: 0rem 3rem 3rem;
+}
+
+.sub-headers {
+    padding: 0 3rem 3rem;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -219,6 +227,12 @@ footer {
   .card-border {
     border: 2px solid white;
     margin: 0 3rem;
+    transition: transform .2s ease-in;
+  }
+
+  .card-border:hover {
+    box-shadow: 6px 6px 2px 1px #EC008F;
+    transform: scale(1.02);
   }
 
   .card-marker > div {
@@ -239,4 +253,8 @@ footer {
     font-size: 1.5rem;
     font-family: 'Permanent Marker', 'Roboto', sans-serif;
     color: #fff;
+  }
+
+  .card-marker p {
+      margin-top: 2rem;
   }
