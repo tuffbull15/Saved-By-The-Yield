@@ -12,7 +12,7 @@ let boxThreeOpacityLido = 0.2;
 function boxTwoRevealLido(){
     if (boxTwoOpacityLido<1){
         boxTwoOpacityLido += .1;
-        setTimeout(function(){boxTwoRevealLido()},100);
+        setTimeout(function(){boxTwoRevealLido()},50);
      }
      boxTwoLido.style.opacity = boxTwoOpacityLido;
 }
@@ -29,7 +29,7 @@ function checkboxTwoLido(){
 function boxThreeRevealLido(){
     if (boxThreeOpacityLido<1) {
         boxThreeOpacityLido += .1;
-        setTimeout(function(){boxThreeRevealLido()},100);
+        setTimeout(function(){boxThreeRevealLido()},50);
      }
      boxThreeLido.style.opacity = boxThreeOpacityLido;
 }
@@ -63,7 +63,7 @@ let boxThreeOpacityRock = 0.2;
 function boxTwoRevealRock(){
     if (boxTwoOpacityRock<1){
         boxTwoOpacityRock += .1;
-        setTimeout(function(){boxTwoRevealRock()},100);
+        setTimeout(function(){boxTwoRevealRock()},50);
      }
      boxTwoRock.style.opacity = boxTwoOpacityRock;
 }
@@ -80,7 +80,7 @@ function checkboxTwoRock(){
 function boxThreeRevealRock(){
     if (boxThreeOpacityRock<1) {
         boxThreeOpacityRock += .1;
-        setTimeout(function(){boxThreeRevealRock()},100);
+        setTimeout(function(){boxThreeRevealRock()},50);
      }
      boxThreeRock.style.opacity = boxThreeOpacityRock;
 }
@@ -114,7 +114,7 @@ let boxThreeOpacityArg = 0.2;
 function boxTwoRevealArg(){
     if (boxTwoOpacityArg<1){
         boxTwoOpacityArg += .1;
-        setTimeout(function(){boxTwoRevealArg()},100);
+        setTimeout(function(){boxTwoRevealArg()},50);
      }
      boxTwoArg.style.opacity = boxTwoOpacityArg;
 }
@@ -131,7 +131,7 @@ function checkboxTwoArg(){
 function boxThreeRevealArg(){
     if (boxThreeOpacityArg<1) {
         boxThreeOpacityArg += .1;
-        setTimeout(function(){boxThreeRevealArg()},100);
+        setTimeout(function(){boxThreeRevealArg()},50);
      }
      boxThreeArg.style.opacity = boxThreeOpacityArg;
 }
@@ -165,7 +165,7 @@ let boxThreeOpacityFtx = 0.2;
 function boxTwoRevealFtx(){
     if (boxTwoOpacityFtx<1){
         boxTwoOpacityFtx += .1;
-        setTimeout(function(){boxTwoRevealFtx()},100);
+        setTimeout(function(){boxTwoRevealFtx()},50);
      }
      boxTwoFtx.style.opacity = boxTwoOpacityFtx;
 }
@@ -182,7 +182,7 @@ function checkboxTwoFtx(){
 function boxThreeRevealFtx(){
     if (boxThreeOpacityFtx<1) {
         boxThreeOpacityFtx += .1;
-        setTimeout(function(){boxThreeRevealFtx()},100);
+        setTimeout(function(){boxThreeRevealFtx()},50);
      }
      boxThreeFtx.style.opacity = boxThreeOpacityFtx;
 }
@@ -216,7 +216,7 @@ let boxThreeOpacityLidoYg = 0.2;
 function boxTwoRevealLidoYg(){
     if (boxTwoOpacityLidoYg<1){
         boxTwoOpacityLidoYg += .1;
-        setTimeout(function(){boxTwoRevealLidoYg()},100);
+        setTimeout(function(){boxTwoRevealLidoYg()},50);
      }
      boxTwoLidoYg.style.opacity = boxTwoOpacityLidoYg;
 }
@@ -233,7 +233,7 @@ function checkboxTwoLidoYg(){
 function boxThreeRevealLidoYg(){
     if (boxThreeOpacityLidoYg<1) {
         boxThreeOpacityLidoYg += .1;
-        setTimeout(function(){boxThreeRevealLidoYg()},100);
+        setTimeout(function(){boxThreeRevealLidoYg()},50);
      }
      boxThreeLidoYg.style.opacity = boxThreeOpacityLidoYg;
 }
@@ -267,7 +267,7 @@ let boxThreeOpacityRockYg = 0.2;
 function boxTwoRevealRockYg(){
     if (boxTwoOpacityRockYg<1){
         boxTwoOpacityRockYg += .1;
-        setTimeout(function(){boxTwoRevealRockYg()},100);
+        setTimeout(function(){boxTwoRevealRockYg()},50);
      }
      boxTwoRockYg.style.opacity = boxTwoOpacityRockYg;
 }
@@ -284,7 +284,7 @@ function checkboxTwoRockYg(){
 function boxThreeRevealRockYg(){
     if (boxThreeOpacityRockYg<1) {
         boxThreeOpacityRockYg += .1;
-        setTimeout(function(){boxThreeRevealRockYg()},100);
+        setTimeout(function(){boxThreeRevealRockYg()},50);
      }
      boxThreeRockYg.style.opacity = boxThreeOpacityRockYg;
 }
@@ -318,7 +318,7 @@ let boxThreeOpacityArgYg = 0.2;
 function boxTwoRevealArgYg(){
     if (boxTwoOpacityArgYg<1){
         boxTwoOpacityArgYg += .1;
-        setTimeout(function(){boxTwoRevealArgYg()},100);
+        setTimeout(function(){boxTwoRevealArgYg()},50);
      }
      boxTwoArgYg.style.opacity = boxTwoOpacityArgYg;
 }
@@ -335,7 +335,7 @@ function checkboxTwoArgYg(){
 function boxThreeRevealArgYg(){
     if (boxThreeOpacityArgYg<1) {
         boxThreeOpacityArgYg += .1;
-        setTimeout(function(){boxThreeRevealArgYg()},100);
+        setTimeout(function(){boxThreeRevealArgYg()},50);
      }
      boxThreeArgYg.style.opacity = boxThreeOpacityArgYg;
 }
@@ -369,7 +369,7 @@ let boxThreeOpacityFtxYg = 0.2;
 function boxTwoRevealFtxYg(){
     if (boxTwoOpacityFtxYg<1){
         boxTwoOpacityFtxYg += .1;
-        setTimeout(function(){boxTwoRevealFtxYg()},100);
+        setTimeout(function(){boxTwoRevealFtxYg()},50);
      }
      boxTwoFtxYg.style.opacity = boxTwoOpacityFtxYg;
 }
@@ -386,7 +386,7 @@ function checkboxTwoFtxYg(){
 function boxThreeRevealFtxYg(){
     if (boxThreeOpacityFtxYg<1) {
         boxThreeOpacityFtxYg += .1;
-        setTimeout(function(){boxThreeRevealFtxYg()},100);
+        setTimeout(function(){boxThreeRevealFtxYg()},50);
      }
      boxThreeFtxYg.style.opacity = boxThreeOpacityFtxYg;
 }
