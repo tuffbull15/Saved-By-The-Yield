@@ -200,7 +200,7 @@ a:first-child {
         list-style: none;
         text-align: center;
         position: fixed;
-        bottom: 0;
+        bottom: 2%;
         left: 67%;
         z-index: 1000;
         -webkit-transform: translate(-50%, -50%);
@@ -208,7 +208,7 @@ a:first-child {
         opacity: 0;
         -webkit-transition: .25s 0s ease-in-out;
         transition: .25s ease-in-out;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
   
     label a {
@@ -224,7 +224,7 @@ a:first-child {
         list-style: none;
         text-align: center;
         position: fixed;
-        bottom: 5%;
+        bottom: 3%;
         left: 50%;
         z-index: 1000;
         -webkit-transform: translate(-50%, -50%);
@@ -232,7 +232,7 @@ a:first-child {
         opacity: 0;
         -webkit-transition: .25s 0s ease-in-out;
         transition: .25s ease-in-out;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
   
     label a {
