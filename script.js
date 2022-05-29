@@ -479,7 +479,7 @@ menuItems.forEach(
 
 // Scroll Into View Nav
 
-// Eth Section Scroll
+// Eth Section Desktop Scroll
 const ethNav = document.querySelector('.eth-nav');
 const ethSection = document.getElementById('eth');
 
@@ -487,7 +487,14 @@ ethNav.addEventListener('click', function () {
     ethSection.scrollIntoView({behavior: 'smooth'});
 });
 
-// Yield Randomizer Scroll
+// Eth Mobile Scroll
+const ethMobNav = document.querySelector('.eth-mob');
+
+ethMobNav.addEventListener('click', function () {
+    ethSection.scrollIntoView({behavior: 'smooth'});
+});
+
+// Yield Randomizer Desktop Scroll
 const yieldNav = document.querySelector('.yield-nav');
 const yieldSection = document.getElementById('yield-randomizer');
 
@@ -495,7 +502,14 @@ yieldNav.addEventListener('click', function () {
     yieldSection.scrollIntoView({behavior: 'smooth'});
 });
 
-// Defi Tools Scroll
+// Yield Randomizer Mobile Scroll
+const yieldMobNav = document.querySelector('.yield-mob');
+
+yieldMobNav.addEventListener('click', function () {
+    yieldSection.scrollIntoView({behavior: 'smooth'});
+});
+
+// Defi Tools Desktop Scroll
 const toolsNav = document.querySelector('.tools-nav');
 const toolsSection = document.getElementById('tools');
 
@@ -503,11 +517,25 @@ toolsNav.addEventListener('click', function () {
     toolsSection.scrollIntoView({behavior: 'smooth'});
 });
 
-// Contact Scroll
+// Defi Tools Mobile Scroll
+const toolsMobNav = document.querySelector('.tools-mob');
 
+toolsMobNav.addEventListener('click', function () {
+    toolsSection.scrollIntoView({behavior: 'smooth'});
+});
+
+
+// Contact Desktop Scroll
 const contactNav = document.querySelector('.contact-nav');
 const contactSection = document.getElementById('contact');
 
 contactNav.addEventListener('click', function () {
+    contactSection.scrollIntoView({behavior: 'smooth'});
+});
+
+// Contact Mobile Scroll
+const contactMobNav = document.querySelector('.contact-mob');
+
+contactMobNav.addEventListener('click', function () {
     contactSection.scrollIntoView({behavior: 'smooth'});
 });
