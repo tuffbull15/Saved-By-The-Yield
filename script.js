@@ -457,3 +457,57 @@ function yieldRandomizer(){
     toggleText();
     toggleYield();
 }
+
+// Mobile Navigation Menu
+
+const mobileMenu = document.querySelector(".mobile-nav");
+const menuItems = document.querySelectorAll(".menu-item");
+const mobileBox = document.querySelector('input[name=mobile-box]');
+const hamburger = document.querySelector('.hamburger');
+
+function checked(){
+    if (mobileBox.checked = true){
+        mobileBox.checked = false;
+    }
+}
+
+menuItems.forEach(
+    function(menuItem) {
+        menuItem.addEventListener('click', checked);
+    }
+)
+
+// Scroll Into View Nav
+
+// Eth Section Scroll
+const ethNav = document.querySelector('.eth-nav');
+const ethSection = document.getElementById('eth');
+
+ethNav.addEventListener('click', function () {
+    ethSection.scrollIntoView({behavior: 'smooth'});
+});
+
+// Yield Randomizer Scroll
+const yieldNav = document.querySelector('.yield-nav');
+const yieldSection = document.getElementById('yield-randomizer');
+
+yieldNav.addEventListener('click', function () {
+    yieldSection.scrollIntoView({behavior: 'smooth'});
+});
+
+// Defi Tools Scroll
+const toolsNav = document.querySelector('.tools-nav');
+const toolsSection = document.getElementById('tools');
+
+toolsNav.addEventListener('click', function () {
+    toolsSection.scrollIntoView({behavior: 'smooth'});
+});
+
+// Contact Scroll
+
+const contactNav = document.querySelector('.contact-nav');
+const contactSection = document.getElementById('contact');
+
+contactNav.addEventListener('click', function () {
+    contactSection.scrollIntoView({behavior: 'smooth'});
+});
