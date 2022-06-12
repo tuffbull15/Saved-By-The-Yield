@@ -18,7 +18,7 @@ function boxTwoRevealLido(){
 }
 
 function boxTwoTextLido(){
-    stepTwoLido.innerHTML += ": Deposit your ETH and stETH into the <a href=\"https://curve.fi/steth\">Curve stETH pool</a>.";
+    stepTwoLido.innerHTML += ": Head over <a target=\_blank\; href=\https://matcha.xyz/\>Matcha.xyz</a> and find your desired trading pair, like <a href=\https://matcha.xyz/markets/1/0xae7ab96520de3a18e5e111b5eaab095312d7fe84/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\ target=\_blank\>ETH-stETH</a>.";
 }
 
 function checkboxTwoLido(){
@@ -35,7 +35,7 @@ function boxThreeRevealLido(){
 }
 
 function boxThreeTextLido(){
-    stepThreeLido.innerHTML += ": Deposit your crvSTETH LP tokens into <a href=\https://yearn.finance/#/vault/0xdCD90C7f6324cfa40d7169ef80b12031770B4325\">Yearn's stETH pool</a> for a boosted APY on your stETH-ETH position. ";
+    stepThreeLido.innerHTML += ": Swap your stablecoin or eth for stETH. (At the moment, I recommend using a dex versus staking directly with Lido because you often will find a better rate on a dex than staking with Lido directly).";
 }
 
 function checkboxThreeLido(){
@@ -69,7 +69,7 @@ function boxTwoRevealRock(){
 }
 
 function boxTwoTextRock(){
-    stepTwoRock.innerHTML += ": Deposit your wETH or stETH into the wETH-stETH Balancer Pool (it does NOT need to be an even 50/50 split of each!)";
+    stepTwoRock.innerHTML += ": Head over to <a target=\_blank\; href=\https://matcha.xyz/\>Matcha</a> and pull up the ETH-rETH trading pair or your favorite stablecoin-rETH trading pair.";
 }
 
 function checkboxTwoRock(){
@@ -86,7 +86,7 @@ function boxThreeRevealRock(){
 }
 
 function boxThreeTextRock(){
-    stepThreeRock.innerHTML += ": Set a schedule — every day/week/month — to harvest your BAL tokens back into ETH.";
+    stepThreeRock.innerHTML += ": Swap away. With Matcha, you're guaranteed the best price every time.";
 }
 
 function checkboxThreelRock(){
@@ -120,7 +120,7 @@ function boxTwoRevealArg(){
 }
 
 function boxTwoTextArg(){
-    stepTwoArg.innerHTML += ": Deposit your ETH and stETH into the <a href=\"https://curve.fi/steth\">Curve stETH pool</a>.";
+    stepTwoArg.innerHTML += ": Hit the \"Receive\" button and buy crypto directly with fiat using Moonpay or Ramp. ";
 }
 
 function checkboxTwoArg(){
@@ -137,7 +137,7 @@ function boxThreeRevealArg(){
 }
 
 function boxThreeTextArg(){
-    stepThreeArg.innerHTML += ": Deposit your crvSTETH LP tokens into <a href=\https://yearn.finance/#/vault/0xdCD90C7f6324cfa40d7169ef80b12031770B4325\">Yearn's stETH pool</a> for a boosted APY on your stETH-ETH position. ";
+    stepThreeArg.innerHTML += ":  Click on the \"Invest\" tab and select the \"Yield Optimized\" strategy. Your ETH will be deposited into Yearn's vaults and in return you will receive yvsteCRV tokens as proof of your deposit. ";
 }
 
 function checkboxThreeArg(){
@@ -171,7 +171,7 @@ function boxTwoRevealFtx(){
 }
 
 function boxTwoTextFtx(){
-    stepTwoFtx.innerHTML += ": Deposit your ETH and stETH into the <a href=\"https://curve.fi/steth\">Curve stETH pool</a>.";
+    stepTwoFtx.innerHTML += ": Click the settings gear icon in the top right, go to your profile, and enable yield on your assets. ";
 }
 
 function checkboxTwoFtx(){
@@ -188,7 +188,7 @@ function boxThreeRevealFtx(){
 }
 
 function boxThreeTextFtx(){
-    stepThreeFtx.innerHTML += ": Deposit your crvSTETH LP tokens into <a href=\https://yearn.finance/#/vault/0xdCD90C7f6324cfa40d7169ef80b12031770B4325\">Yearn's stETH pool</a> for a boosted APY on your stETH-ETH position. ";
+    stepThreeFtx.innerHTML += ": Deposit ETH into your wallet or deposit fiat into your account and use it to buy ETH directly on FTX.";
 }
 
 function checkboxThreeFtx(){
@@ -222,7 +222,7 @@ function boxTwoRevealLidoYg(){
 }
 
 function boxTwoTextLidoYg(){
-    stepTwoLidoYg.innerHTML += ": Deposit your wETH or stETH into the wETH-stETH Balancer Pool (it does NOT need to be an even 50/50 split of each!)";
+    stepTwoLidoYg.innerHTML += ": Head over <a target=\_blank\; href=\https://matcha.xyz/\>Matcha.xyz</a> and find your desired trading pair, like <a href=\https://matcha.xyz/markets/1/0xae7ab96520de3a18e5e111b5eaab095312d7fe84/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\ target=\_blank\>ETH-stETH</a>.";
 }
 
 function checkboxTwoLidoYg(){
@@ -239,7 +239,7 @@ function boxThreeRevealLidoYg(){
 }
 
 function boxThreeTextLidoYg(){
-    stepThreeLidoYg.innerHTML += ": Set a schedule — every day/week/month — to harvest your BAL tokens back into ETH.";
+    stepThreeLidoYg.innerHTML += ": Swap away. With Matcha, you're guaranteed the best price every time.";
 }
 
 function checkboxThreeLidoYg(){
@@ -273,7 +273,7 @@ function boxTwoRevealRockYg(){
 }
 
 function boxTwoTextRockYg(){
-    stepTwoRockYg.innerHTML += ": Deposit your wETH or stETH into the wETH-stETH Balancer Pool (it does NOT need to be an even 50/50 split of each!)";
+    stepTwoRockYg.innerHTML += ": Head over to <a target=\_blank\; href=\https://matcha.xyz/\>Matcha</a> and pull up the ETH-rETH trading pair or your favorite stablecoin-rETH trading pair.";
 }
 
 function checkboxTwoRockYg(){
@@ -290,7 +290,7 @@ function boxThreeRevealRockYg(){
 }
 
 function boxThreeTextRockYg(){
-    stepThreeRockYg.innerHTML += ": Set a schedule — every day/week/month — to harvest your BAL tokens back into ETH.";
+    stepThreeRockYg.innerHTML += ": Swap away. With Matcha, you're guaranteed the best price every time.";
 }
 
 function checkboxThreeRockYg(){
@@ -324,7 +324,7 @@ function boxTwoRevealArgYg(){
 }
 
 function boxTwoTextArgYg(){
-    stepTwoArgYg.innerHTML += ": Deposit your wETH or stETH into the wETH-stETH Balancer Pool (it does NOT need to be an even 50/50 split of each!)";
+    stepTwoArgYg.innerHTML += ": Hit the \"Receive\" button and buy crypto directly with fiat using Moonpay or Ramp. ";
 }
 
 function checkboxTwoArgYg(){
@@ -341,7 +341,7 @@ function boxThreeRevealArgYg(){
 }
 
 function boxThreeTextArgYg(){
-    stepThreeArgYg.innerHTML += ": Set a schedule — every day/week/month — to harvest your BAL tokens back into ETH.";
+    stepThreeArgYg.innerHTML += ":  Click on the \"Invest\" tab and select the \"Yield Optimized\" strategy. Your ETH will be deposited into Yearn's vaults and in return you will receive yvsteCRV tokens as proof of your deposit. ";
 }
 
 function checkboxThreeArgYg(){
@@ -375,7 +375,7 @@ function boxTwoRevealFtxYg(){
 }
 
 function boxTwoTextFtxYg(){
-    stepTwoFtxYg.innerHTML += ": Deposit your wETH or stETH into the wETH-stETH Balancer Pool (it does NOT need to be an even 50/50 split of each!)";
+    stepTwoFtxYg.innerHTML += ": Click the settings gear icon in the top right, go to your profile, and enable yield on your assets. ";
 }
 
 function checkboxTwoFtxYg(){
@@ -392,7 +392,7 @@ function boxThreeRevealFtxYg(){
 }
 
 function boxThreeTextFtxYg(){
-    stepThreeFtxYg.innerHTML += ": Set a schedule — every day/week/month — to harvest your BAL tokens back into ETH.";
+    stepThreeFtxYg.innerHTML += ": Deposit ETH into your wallet or deposit fiat into your account and use it to buy ETH directly on FTX.";
 }
 
 function checkboxThreeFtxYg(){
