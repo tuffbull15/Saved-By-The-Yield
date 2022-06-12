@@ -67,7 +67,11 @@ h5 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #01AFF1;
+}
+
+strong {
+    color: #FFF300; 
 }
 
 @media screen and (max-width: 768px) {
@@ -100,6 +104,7 @@ a:first-child {
 .nav-item {
     padding: 0 30px;
     cursor: pointer;
+    color: #fff; 
 }
 
 .mobile-nav {
@@ -477,4 +482,5 @@ a:first-child {
 
 .foot-item {
     padding: 0 30px;
+    color: #fff; 
 }
