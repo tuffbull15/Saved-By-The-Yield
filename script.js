@@ -1,5 +1,6 @@
-// Checkbox Script CRV-Yearn Strategy
+// Lido stETHStrategy
 
+const checkboxTwo = document.querySelector('.checkboxTwo');
 const boxOneLido = document.getElementById('box-one-lido');
 const boxTwoLido = document.getElementById('box-two-lido');
 const boxThreeLido = document.getElementById('box-three-lido');
@@ -21,10 +22,10 @@ function boxTwoTextLido(){
     stepTwoLido.innerHTML += ": Head over <a target=\_blank\; href=\https://matcha.xyz/\>Matcha.xyz</a> and find your desired trading pair, like <a href=\https://matcha.xyz/markets/1/0xae7ab96520de3a18e5e111b5eaab095312d7fe84/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\ target=\_blank\>ETH-stETH</a>.";
 }
 
-function checkboxTwoLido(){
+checkboxTwo.addEventListener('click', function (){
     boxTwoRevealLido();
     boxTwoTextLido();
-}
+}, {once:true});
 
 function boxThreeRevealLido(){
     if (boxThreeOpacityLido<1) {
