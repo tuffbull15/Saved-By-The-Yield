@@ -1,11 +1,14 @@
 // Lido stETHStrategy
 
-const checkboxTwo = document.querySelector('.checkboxTwo');
+const lidoTwoReveal = document.querySelector('.lido-two-reveal');
+const lidoThreeReveal = document.querySelector('.lido-three-reveal');
 const boxOneLido = document.getElementById('box-one-lido');
 const boxTwoLido = document.getElementById('box-two-lido');
 const boxThreeLido = document.getElementById('box-three-lido');
 const stepTwoLido = document.getElementById('step-two-lido');
 const stepThreeLido = document.getElementById('step-three-lido');
+const lidoCheckboxThree = document.querySelector('.lido-checkbox-three');
+const lidoSuccess = document.querySelector('.lido-success')
 
 let boxTwoOpacityLido = 0.2;
 let boxThreeOpacityLido = 0.2;
@@ -22,7 +25,7 @@ function boxTwoTextLido(){
     stepTwoLido.innerHTML += ": Head over <a target=\_blank\; href=\https://matcha.xyz/\>Matcha.xyz</a> and find your desired trading pair, like <a href=\https://matcha.xyz/markets/1/0xae7ab96520de3a18e5e111b5eaab095312d7fe84/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\ target=\_blank\>ETH-stETH</a>.";
 }
 
-checkboxTwo.addEventListener('click', function (){
+lidoTwoReveal.addEventListener('click', function (){
     boxTwoRevealLido();
     boxTwoTextLido();
 }, {once:true});
@@ -39,24 +42,26 @@ function boxThreeTextLido(){
     stepThreeLido.innerHTML += ": Swap your stablecoin or eth for stETH. (At the moment, I recommend using a dex versus staking directly with Lido because you often will find a better rate on a dex than staking with Lido directly).";
 }
 
-function checkboxThreeLido(){
+lidoThreeReveal.addEventListener('click', function (){
     boxThreeRevealLido();
     boxThreeTextLido();
-}
+}, {once:true});
 
-const lidoSuccess = document.getElementById('lido-success')
-
-function lidoSuccessMessage(){
+lidoCheckboxThree.addEventListener('click', function() {
     lidoSuccess.style.display = 'flex';
-}
+})
 
 // Checkbox Script Rocket Strategy
 
+const rocketTwoReveal = document.querySelector('.rocket-two-reveal');
+const rocketThreeReveal = document.querySelector('.rocket-three-reveal');
 const boxOneRock = document.getElementById('box-one-rock');
 const boxTwoRock = document.getElementById('box-two-rock');
 const boxThreeRock = document.getElementById('box-three-rock');
 const stepTwoRock = document.getElementById('step-two-rock');
 const stepThreeRock = document.getElementById('step-three-rock');
+const rocketCheckboxThree = document.querySelector('.rocket-checkbox-three');
+const rockSuccess = document.querySelector('.rock-success')
 
 let boxTwoOpacityRock = 0.2;
 let boxThreeOpacityRock = 0.2;
@@ -73,10 +78,10 @@ function boxTwoTextRock(){
     stepTwoRock.innerHTML += ": Head over to <a target=\_blank\; href=\https://matcha.xyz/\>Matcha</a> and pull up the ETH-rETH trading pair or your favorite stablecoin-rETH trading pair.";
 }
 
-function checkboxTwoRock(){
+rocketTwoReveal.addEventListener('click', function (){
     boxTwoRevealRock();
     boxTwoTextRock();
-}
+}, {once:true});
 
 function boxThreeRevealRock(){
     if (boxThreeOpacityRock<1) {
@@ -90,24 +95,26 @@ function boxThreeTextRock(){
     stepThreeRock.innerHTML += ": Swap away. With Matcha, you're guaranteed the best price every time.";
 }
 
-function checkboxThreelRock(){
+rocketThreeReveal.addEventListener('click', function (){
     boxThreeRevealRock();
     boxThreeTextRock();
-}
+}, {once:true});
 
-const rockSuccess = document.getElementById('rock-success')
-
-function rockSuccessMessage(){
+rocketCheckboxThree.addEventListener('click', function() {
     rockSuccess.style.display = 'flex';
-}
+})
 
 // Checkbox Script Argent Wallet
 
+const argentTwoReveal = document.querySelector('.argent-two-reveal');
+const argentThreeReveal = document.querySelector('.argent-three-reveal');
 const boxOneArg = document.getElementById('box-one-arg');
 const boxTwoArg = document.getElementById('box-two-arg');
 const boxThreeArg = document.getElementById('box-three-arg');
 const stepTwoArg = document.getElementById('step-two-arg');
 const stepThreeArg = document.getElementById('step-three-arg');
+const argentCheckboxThree = document.querySelector('.argent-checkbox-three');
+const argentSuccess = document.querySelector('.argent-success')
 
 let boxTwoOpacityArg = 0.2;
 let boxThreeOpacityArg = 0.2;
@@ -124,10 +131,10 @@ function boxTwoTextArg(){
     stepTwoArg.innerHTML += ": Hit the \"Receive\" button and buy crypto directly with fiat using Moonpay or Ramp. ";
 }
 
-function checkboxTwoArg(){
+argentTwoReveal.addEventListener('click', function (){
     boxTwoRevealArg();
     boxTwoTextArg();
-}
+}, {once:true});
 
 function boxThreeRevealArg(){
     if (boxThreeOpacityArg<1) {
@@ -141,24 +148,26 @@ function boxThreeTextArg(){
     stepThreeArg.innerHTML += ":  Click on the \"Invest\" tab and select the \"Yield Optimized\" strategy. Your ETH will be deposited into Yearn's vaults and in return you will receive yvsteCRV tokens as proof of your deposit. ";
 }
 
-function checkboxThreeArg(){
+argentThreeReveal.addEventListener('click', function (){
     boxThreeRevealArg();
     boxThreeTextArg();
-}
+}, {once:true});
 
-const argSuccess = document.getElementById('arg-success')
-
-function argSuccessMessage(){
-    argSuccess.style.display = 'flex';
-}
+argentCheckboxThree.addEventListener('click', function() {
+    argentSuccess.style.display = 'flex';
+})
 
 // Checkbox Script FTX Earn
 
+const ftxTwoReveal = document.querySelector('.ftx-two-reveal');
+const ftxThreeReveal = document.querySelector('.ftx-three-reveal');
 const boxOneFtx = document.getElementById('box-one-ftx');
 const boxTwoFtx = document.getElementById('box-two-ftx');
 const boxThreeFtx = document.getElementById('box-three-ftx');
 const stepTwoFtx = document.getElementById('step-two-ftx');
 const stepThreeFtx = document.getElementById('step-three-ftx');
+const ftxCheckboxThree = document.querySelector('.ftx-checkbox-three');
+const ftxSuccess = document.querySelector('.ftx-success')
 
 let boxTwoOpacityFtx = 0.2;
 let boxThreeOpacityFtx = 0.2;
@@ -175,10 +184,10 @@ function boxTwoTextFtx(){
     stepTwoFtx.innerHTML += ": Click the settings gear icon in the top right, go to your profile, and enable yield on your assets. ";
 }
 
-function checkboxTwoFtx(){
+ftxTwoReveal.addEventListener('click', function (){
     boxTwoRevealFtx();
     boxTwoTextFtx();
-}
+}, {once:true});
 
 function boxThreeRevealFtx(){
     if (boxThreeOpacityFtx<1) {
@@ -192,24 +201,26 @@ function boxThreeTextFtx(){
     stepThreeFtx.innerHTML += ": Deposit ETH into your wallet or deposit fiat into your account and use it to buy ETH directly on FTX.";
 }
 
-function checkboxThreeFtx(){
+ftxThreeReveal.addEventListener('click', function (){
     boxThreeRevealFtx();
     boxThreeTextFtx();
-}
+}, {once:true});
 
-const ftxSuccess = document.getElementById('ftx-success')
-
-function ftxSuccessMessage(){
+ftxCheckboxThree.addEventListener('click', function() {
     ftxSuccess.style.display = 'flex';
-}
+})
 
 // Yield Generator - Lido Strategy
 
+const lidoTwoRevealYg = document.querySelector('.lido-two-reveal-yg');
+const lidoThreeRevealYg = document.querySelector('.lido-three-reveal-yg');
 const boxOneLidoYg = document.getElementById('box-one-lido-yg');
 const boxTwoLidoYg = document.getElementById('box-two-lido-yg');
 const boxThreeLidoYg = document.getElementById('box-three-lido-yg');
 const stepTwoLidoYg = document.getElementById('step-two-lido-yg');
 const stepThreeLidoYg = document.getElementById('step-three-lido-yg');
+const lidoCheckboxThreeYg = document.querySelector('.lido-checkbox-three-yg');
+const lidoSuccessYg = document.querySelector('.lido-success-yg')
 
 let boxTwoOpacityLidoYg = 0.2;
 let boxThreeOpacityLidoYg = 0.2;
@@ -226,10 +237,10 @@ function boxTwoTextLidoYg(){
     stepTwoLidoYg.innerHTML += ": Head over <a target=\_blank\; href=\https://matcha.xyz/\>Matcha.xyz</a> and find your desired trading pair, like <a href=\https://matcha.xyz/markets/1/0xae7ab96520de3a18e5e111b5eaab095312d7fe84/0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee\ target=\_blank\>ETH-stETH</a>.";
 }
 
-function checkboxTwoLidoYg(){
+lidoTwoRevealYg.addEventListener('click', function (){
     boxTwoRevealLidoYg();
     boxTwoTextLidoYg();
-}
+}, {once:true});
 
 function boxThreeRevealLidoYg(){
     if (boxThreeOpacityLidoYg<1) {
@@ -243,24 +254,26 @@ function boxThreeTextLidoYg(){
     stepThreeLidoYg.innerHTML += ": Swap away. With Matcha, you're guaranteed the best price every time.";
 }
 
-function checkboxThreeLidoYg(){
+lidoThreeRevealYg.addEventListener('click', function (){
     boxThreeRevealLidoYg();
     boxThreeTextLidoYg();
-}
+}, {once:true});
 
-const lidoSuccessYg = document.getElementById('lido-success-yg')
-
-function lidoSuccessMessageYg(){
+lidoCheckboxThreeYg.addEventListener('click', function() {
     lidoSuccessYg.style.display = 'flex';
-}
+})
 
 // Yield Generator - Rocket Strategy
 
+const rocketTwoRevealYg = document.querySelector('.rocket-two-reveal-yg');
+const rocketThreeRevealYg = document.querySelector('.rocket-three-reveal-yg');
 const boxOneRockYg = document.getElementById('box-one-rock-yg');
 const boxTwoRockYg = document.getElementById('box-two-rock-yg');
 const boxThreeRockYg = document.getElementById('box-three-rock-yg');
 const stepTwoRockYg = document.getElementById('step-two-rock-yg');
 const stepThreeRockYg = document.getElementById('step-three-rock-yg');
+const rocketCheckboxThreeYg = document.querySelector('.rocket-checkbox-three-yg');
+const rocketSuccessYg = document.querySelector('.rocket-success-yg')
 
 let boxTwoOpacityRockYg = 0.2;
 let boxThreeOpacityRockYg = 0.2;
@@ -277,10 +290,10 @@ function boxTwoTextRockYg(){
     stepTwoRockYg.innerHTML += ": Head over to <a target=\_blank\; href=\https://matcha.xyz/\>Matcha</a> and pull up the ETH-rETH trading pair or your favorite stablecoin-rETH trading pair.";
 }
 
-function checkboxTwoRockYg(){
+rocketTwoRevealYg.addEventListener('click', function (){
     boxTwoRevealRockYg();
     boxTwoTextRockYg();
-}
+}, {once:true});
 
 function boxThreeRevealRockYg(){
     if (boxThreeOpacityRockYg<1) {
@@ -294,24 +307,26 @@ function boxThreeTextRockYg(){
     stepThreeRockYg.innerHTML += ": Swap away. With Matcha, you're guaranteed the best price every time.";
 }
 
-function checkboxThreeRockYg(){
+rocketThreeRevealYg.addEventListener('click', function (){
     boxThreeRevealRockYg();
     boxThreeTextRockYg();
-}
+}, {once:true});
 
-const rockSuccessYg = document.getElementById('rock-success-yg')
-
-function rockSuccessMessageYg(){
-    rockSuccessYg.style.display = 'flex';
-}
+rocketCheckboxThreeYg.addEventListener('click', function() {
+    rocketSuccessYg.style.display = 'flex';
+})
 
 // Yield Generator - Argent Strategy
 
+const argentTwoRevealYg = document.querySelector('.argent-two-reveal-yg');
+const argentThreeRevealYg = document.querySelector('.argent-three-reveal-yg');
 const boxOneArgYg = document.getElementById('box-one-arg-yg');
 const boxTwoArgYg = document.getElementById('box-two-arg-yg');
 const boxThreeArgYg = document.getElementById('box-three-arg-yg');
 const stepTwoArgYg = document.getElementById('step-two-arg-yg');
 const stepThreeArgYg = document.getElementById('step-three-arg-yg');
+const argentCheckboxThreeYg = document.querySelector('.argent-checkbox-three-yg');
+const argentSuccessYg = document.querySelector('.argent-success-yg')
 
 let boxTwoOpacityArgYg = 0.2;
 let boxThreeOpacityArgYg = 0.2;
@@ -328,10 +343,10 @@ function boxTwoTextArgYg(){
     stepTwoArgYg.innerHTML += ": Hit the \"Receive\" button and buy crypto directly with fiat using Moonpay or Ramp. ";
 }
 
-function checkboxTwoArgYg(){
+argentTwoRevealYg.addEventListener('click', function (){
     boxTwoRevealArgYg();
     boxTwoTextArgYg();
-}
+}, {once:true});
 
 function boxThreeRevealArgYg(){
     if (boxThreeOpacityArgYg<1) {
@@ -345,24 +360,26 @@ function boxThreeTextArgYg(){
     stepThreeArgYg.innerHTML += ":  Click on the \"Invest\" tab and select the \"Yield Optimized\" strategy. Your ETH will be deposited into Yearn's vaults and in return you will receive yvsteCRV tokens as proof of your deposit. ";
 }
 
-function checkboxThreeArgYg(){
+argentThreeRevealYg.addEventListener('click', function (){
     boxThreeRevealArgYg();
     boxThreeTextArgYg();
-}
+}, {once:true});
 
-const argSuccessYg = document.getElementById('arg-success-yg')
-
-function argSuccessMessageYg(){
-    argSuccessYg.style.display = 'flex';
-}
+argentCheckboxThreeYg.addEventListener('click', function() {
+    argentSuccessYg.style.display = 'flex';
+})
 
 // Yield Generator - FTX Earn
 
+const ftxTwoRevealYg = document.querySelector('.ftx-two-reveal-yg');
+const ftxThreeRevealYg = document.querySelector('.ftx-three-reveal-yg');
 const boxOneFtxYg = document.getElementById('box-one-ftx-yg');
 const boxTwoFtxYg = document.getElementById('box-two-ftx-yg');
 const boxThreeFtxYg = document.getElementById('box-three-ftx-yg');
 const stepTwoFtxYg = document.getElementById('step-two-ftx-yg');
 const stepThreeFtxYg = document.getElementById('step-three-ftx-yg');
+const ftxCheckboxThreeYg = document.querySelector('.ftx-checkbox-three-yg');
+const ftxSuccessYg = document.querySelector('.ftx-success-yg')
 
 let boxTwoOpacityFtxYg = 0.2;
 let boxThreeOpacityFtxYg = 0.2;
@@ -379,10 +396,10 @@ function boxTwoTextFtxYg(){
     stepTwoFtxYg.innerHTML += ": Click the settings gear icon in the top right, go to your profile, and enable yield on your assets. ";
 }
 
-function checkboxTwoFtxYg(){
+ftxTwoRevealYg.addEventListener('click', function (){
     boxTwoRevealFtxYg();
     boxTwoTextFtxYg();
-}
+}, {once:true});
 
 function boxThreeRevealFtxYg(){
     if (boxThreeOpacityFtxYg<1) {
@@ -396,32 +413,30 @@ function boxThreeTextFtxYg(){
     stepThreeFtxYg.innerHTML += ": Deposit ETH into your wallet or deposit fiat into your account and use it to buy ETH directly on FTX.";
 }
 
-function checkboxThreeFtxYg(){
+ftxThreeRevealYg.addEventListener('click', function (){
     boxThreeRevealFtxYg();
     boxThreeTextFtxYg();
-}
+}, {once:true});
 
-const ftxSuccessYg = document.getElementById('ftx-success-yg')
-
-function ftxSuccessMessageYg(){
+ftxCheckboxThreeYg.addEventListener('click', function() {
     ftxSuccessYg.style.display = 'flex';
-}
+})
 
 // Yield Randomizer Button
 
+const yieldButton = document.querySelector('.yield-button');
 const rocketEth = document.getElementById('rocket-eth');
 const lidoEth = document.getElementById('lido-eth');
 const argEth = document.getElementById('arg-eth');
 const ftxEth = document.getElementById('ftx-eth');
 
-const btnText = document.getElementById('yield-button');
 let randYieldArray = [rocketEth, lidoEth, argEth, ftxEth]
 let txtArray = ['Keep Clicking For More Good Yields', 'More Yield Strategies Await', 'Yield on Yield Is A Click Away'];
 
 
 function toggleText(){
     let randText = Math.floor(Math.random() * txtArray.length);
-    btnText.innerHTML = txtArray[randText];
+    yieldButton.innerHTML = txtArray[randText];
 }
 
 function toggleYield(){
@@ -454,10 +469,10 @@ function toggleYield(){
     }
 }
 
-function yieldRandomizer(){
+yieldButton.addEventListener('click', function() {
     toggleText();
     toggleYield();
-}
+});
 
 // Mobile Navigation Menu
 
