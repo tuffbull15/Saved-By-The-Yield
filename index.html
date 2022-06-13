@@ -91,18 +91,18 @@
                 </div>
                 <div class="check-box-container">
                     <div id="box-one-lido">
-                        <input type="checkbox" class="checkboxTwo">
+                        <input type="checkbox" class="lido-two-reveal">
                         <label id="step-one-lido"><span class="steps">Step 1</span>: Deposit ETH or your favorite stablecoin into your ethereum wallet.</label><br>
                     </div>
                     <div id="box-two-lido" style="opacity:0.2">
-                        <input type="checkbox" onclick="checkboxThreeLido(); this.onclick=null;">
+                        <input type="checkbox" class="lido-three-reveal">
                         <label id="step-two-lido"><span class="steps">Step 2</span></label><br>
                     </div>
                     <div id="box-three-lido" style="opacity:0.2">
-                        <input type="checkbox" onclick="lidoSuccessMessage()">
+                        <input type="checkbox" class="lido-checkbox-three">
                         <label id="step-three-lido"><span class="steps">Step 3</span></label><br>
                     </div>
-                    <div id="lido-success" class="success-message"><p>Every man dies, not every man really lives... to see sweet yield on their Eth.</p></div>
+                    <div class="lido-success success-message"><p>Every man dies, not every man really lives... to see sweet yield on their Eth.</p></div>
                 </div>
             </div>     
         </div>
@@ -140,18 +140,18 @@
                 </div>
                 <div class="check-box-container">
                     <div id="box-one-rock">
-                        <input type="checkbox" onclick="checkboxTwoRock(); this.onclick=null;">
+                        <input type="checkbox" class="rocket-two-reveal">
                         <label id="step-one-rock"><span class="steps">Step 1</span>: Deposit ETH or your favorite stablecoin into your wallet.</label><br>
                     </div>
                     <div id="box-two-rock" style="opacity:0.2">
-                        <input type="checkbox" onclick="checkboxThreelRock(); this.onclick=null;">
+                        <input type="checkbox" class="rocket-three-reveal">
                         <label id="step-two-rock"><span class="steps">Step 2</span></label><br>
                     </div>
                     <div id="box-three-rock" style="opacity:0.2">
-                        <input type="checkbox" onclick="rockSuccessMessage(); this.onclick=null;">
+                        <input type="checkbox" class="rocket-checkbox-three">
                         <label id="step-three-rock"><span class="steps">Step 3</span></label><br>
                     </div>
-                    <div id="rock-success" class="success-message"><p>All right, all right, all right.</p></div>
+                    <div class="rock-success success-message"><p>All right, all right, all right.</p></div>
                 </div>
             </div>
         </div>
@@ -185,18 +185,18 @@
                 </div>
                 <div class="check-box-container">
                     <div id="box-one-arg">
-                        <input type="checkbox" onclick="checkboxTwoArg(); this.onclick=null;">
+                        <input type="checkbox" class="argent-two-reveal">
                         <label id="step-one-arg"><span class="steps">Step 1</span>: Download the Argent app and set up your wallet.</label><br>
                     </div>
                     <div id="box-two-arg" style="opacity:0.2">
-                        <input type="checkbox" onclick="checkboxThreeArg(); this.onclick=null;">
+                        <input type="checkbox" class="argent-three-reveal">
                         <label id="step-two-arg"><span class="steps">Step 2</span></label><br>
                     </div>
                     <div id="box-three-arg" style="opacity:0.2">
-                        <input type="checkbox" onclick="argSuccessMessage()">
+                        <input type="checkbox" class="argent-checkbox-three">
                         <label id="step-three-arg"><span class="steps">Step 3</span></label><br>
                     </div>
-                    <div id="arg-success" class="success-message"><p>Just when I think you couldn’t possibly be any dumber, you go and do something like this… and totally redeem yourself!</p></div>
+                    <div class="argent-success success-message"><p>Just when I think you couldn’t possibly be any dumber, you go and do something like this… and totally redeem yourself!</p></div>
                 </div>
             </div>
         </div>
@@ -231,18 +231,18 @@
                 </div>
                 <div class="check-box-container">
                     <div id="box-one-ftx">
-                        <input type="checkbox" onclick="checkboxTwoFtx(); this.onclick=null;">
+                        <input type="checkbox" class="ftx-two-reveal">
                         <label id="step-one-ftx"><span class="steps">Step 1</span>: Download FTX and sign up for an account.</label><br>
                     </div>
                     <div id="box-two-ftx" style="opacity:0.2">
-                        <input type="checkbox" onclick="checkboxThreeFtx(); this.onclick=null;">
+                        <input type="checkbox" class="ftx-three-reveal">
                         <label id="step-two-ftx"><span class="steps">Step 2</span></label><br>
                     </div>
                     <div id="box-three-ftx" style="opacity:0.2">
-                        <input type="checkbox" onclick="ftxSuccessMessage()">
+                        <input type="checkbox" class="ftx-checkbox-three">
                         <label id="step-three-ftx"><span class="steps">Step 3</span></label><br>
                     </div>
-                    <div id="ftx-success" class="success-message"><p>Show me the money (but more importantly the yield)!</p></div>
+                    <div class="ftx-success success-message"><p>Show me the money (but more importantly the yield)!</p></div>
                 </div>
             </div>
         </div>
@@ -253,7 +253,7 @@
         <div class="headers">
             <h2>Yield Randomizer</h2>
             <p>Not sure what yield strategy you want to use? Let us make the decision for you! Click the button below to generate a random yield-bearing strategy.</p>
-            <button class="yield-button" id="yield-button" onclick="yieldRandomizer()">Find Hella' Good Yields</button>
+            <button class="yield-button">Find Hella' Good Yields</button>
         </div>
     </div>
 
@@ -291,18 +291,18 @@
                         </div>
                         <div class="check-box-container">
                             <div id="box-one-rock-yg">
-                                <input type="checkbox" onclick="checkboxTwoRockYg(); this.onclick=null;">
+                                <input type="checkbox" class="rocket-two-reveal-yg">
                                 <label id="step-one-rock-yg"><span class="steps">Step 1</span>: Deposit ETH or your favorite stablecoin into your wallet.</label><br>
                             </div>
                             <div id="box-two-rock-yg" style="opacity:0.2">
-                                <input type="checkbox" onclick="checkboxThreeRockYg(); this.onclick=null;">
+                                <input type="checkbox" class="rocket-three-reveal-yg">
                                 <label id="step-two-rock-yg"><span class="steps">Step 2</span></label><br>
                             </div>
                             <div id="box-three-rock-yg" style="opacity:0.2">
-                                <input type="checkbox" onclick="rockSuccessMessageYg()">
+                                <input type="checkbox" class="rocket-checkbox-three-yg">
                                 <label id="step-three-rock-yg"><span class="steps">Step 3</span></label><br>
                             </div>
-                            <div id="rock-success-yg" class="success-message"><p>All right, all right, all right.</p></div>
+                            <div class="rocket-success-yg success-message"><p>All right, all right, all right.</p></div>
                         </div>
                     </div>
                 </div>
@@ -344,18 +344,18 @@
                         </div>
                         <div class="check-box-container">
                             <div id="box-one-lido-yg">
-                                <input type="checkbox" onclick="checkboxTwoLidoYg(); this.onclick=null;">
+                                <input type="checkbox" class="lido-two-reveal-yg">
                                 <label id="step-one-lido-yg"><span class="steps">Step 1</span>: Deposit ETH or your favorite stablecoin into your ethereum wallet.</label><br>
                             </div>
                             <div id="box-two-lido-yg" style="opacity:0.2">
-                                <input type="checkbox" onclick="checkboxThreeLidoYg(); this.onclick=null;">
+                                <input type="checkbox" class="lido-three-reveal-yg">
                                 <label id="step-two-lido-yg"><span class="steps">Step 2</span></label><br>
                             </div>
                             <div id="box-three-lido-yg" style="opacity:0.2">
-                                <input type="checkbox" onclick="lidoSuccessMessageYg()">
+                                <input type="checkbox" class="lido-checkbox-three-yg">
                                 <label id="step-three-lido-yg"><span class="steps">Step 3</span></label><br>
                             </div>
-                            <div id="lido-success-yg" class="success-message"><p>Every man dies, not every man really lives... to see sweet yield on their Eth.</p></div>
+                            <div class="lido-success-yg success-message"><p>Every man dies, not every man really lives... to see sweet yield on their Eth.</p></div>
                         </div>
                     </div>
                 </div>
@@ -390,18 +390,18 @@
                         </div>
                         <div class="check-box-container">
                             <div id="box-one-arg-yg">
-                                <input type="checkbox" onclick="checkboxTwoArgYg(); this.onclick=null;">
+                                <input type="checkbox" class="argent-two-reveal-yg">
                                 <label id="step-one-arg-yg"><span class="steps">Step 1</span>: Download the Argent app and set up your wallet.</label><br>
                             </div>
                             <div id="box-two-arg-yg" style="opacity:0.2">
-                                <input type="checkbox" onclick="checkboxThreeArgYg(); this.onclick=null;">
+                                <input type="checkbox" class="argent-three-reveal-yg">
                                 <label id="step-two-arg-yg"><span class="steps">Step 2</span></label><br>
                             </div>
                             <div id="box-three-arg-yg" style="opacity:0.2">
-                                <input type="checkbox" onclick="argSuccessMessageYg(); this.onclick=null;">
+                                <input type="checkbox" class="argent-checkbox-three-yg">
                                 <label id="step-three-arg-yg"><span class="steps">Step 3</span></label><br>
                             </div>
-                            <div id="arg-success-yg" class="success-message"><p>Just when I think you couldn’t possibly be any dumber, you go and do something like this… and totally redeem yourself!</p></div>
+                            <div class="argent-success-yg success-message"><p>Just when I think you couldn’t possibly be any dumber, you go and do something like this… and totally redeem yourself!</p></div>
                         </div>
                     </div>
                 </div>
@@ -438,18 +438,18 @@
                         </div>
                         <div class="check-box-container">
                             <div id="box-one-ftx-yg">
-                                <input type="checkbox" onclick="checkboxTwoFtxYg(); this.onclick=null;">
+                                <input type="checkbox" class="ftx-two-reveal-yg">
                                 <label id="step-one-ftx-yg"><span class="steps">Step 1</span>: Download FTX and sign up for an account.</label><br>
                             </div>
                             <div id="box-two-ftx-yg" style="opacity:0.2">
-                                <input type="checkbox" onclick="checkboxThreeFtxYg(); this.onclick=null;">
+                                <input type="checkbox" class="ftx-three-reveal-yg">
                                 <label id="step-two-ftx-yg"><span class="steps">Step 2</span></label><br>
                             </div>
                             <div id="box-three-ftx-yg" style="opacity:0.2">
-                                <input type="checkbox" onclick="ftxSuccessMessageYg()">
+                                <input type="checkbox" class="ftx-checkbox-three-yg">
                                 <label id="step-three-ftx-yg"><span class="steps">Step 3</span></label><br>
                             </div>
-                            <div id="ftx-success-yg" class="success-message"><p>Show me the money (but more importantly the yield)!</p></div>
+                            <div class="ftx-success-yg success-message"><p>Show me the money (but more importantly the yield)!</p></div>
                         </div>
                     </div>
                 </div>
